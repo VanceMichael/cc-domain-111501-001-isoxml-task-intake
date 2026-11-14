@@ -1,0 +1,1 @@
+<ISO11783_TaskData VersionMajor="4" VersionMinor="3"><TSK A="task-1" B="North"><TIM A="2026-11-01T10:00:00Z" D="4"><DLV A="0001" B="200" C="det-left"/><DLV A="0001" B="300" C="det-right"/></TIM></TSK></ISO11783_TaskData>

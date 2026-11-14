@@ -1,0 +1,36 @@
+{
+  "entry": "/taskdata",
+  "documents": [
+    {
+      "id": "tasks",
+      "path": "TASKDATA.XML",
+      "format": "xml",
+      "file": "00.raw",
+      "task": "task-1",
+      "batch": "batch-local",
+      "serviceRoot": "/raw/",
+      "revision": 1
+    },
+    {
+      "id": "device",
+      "path": "devices/DEVICE.XML",
+      "format": "xml",
+      "file": "01.raw",
+      "task": "task-1",
+      "batch": "batch-local",
+      "serviceRoot": "/raw/",
+      "revision": 1
+    }
+  ],
+  "changedDocument": "device",
+  "replaceFrom": "0.01",
+  "replaceTo": "0.02",
+  "expectedIds": [
+    "task-1:boom-left:volume",
+    "task-1:boom-right:volume"
+  ],
+  "transmissionWindow": [
+    "2026-10-31T23:00:00Z",
+    "2026-11-01T01:00:00Z"
+  ]
+}
